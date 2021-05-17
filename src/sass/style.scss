@@ -1,0 +1,26 @@
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans';
+
+}
+html, body {
+  overflow: hidden;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  overflow-y: scroll;
+  width: calc(100% + 20px);
+  padding: 8px;
+}
+
+@import "about/about";
+@import "buttonMain/button";
+@import "media/media";

@@ -1,0 +1,140 @@
+.about {
+  min-height: 650px;
+  &__item {
+    display: grid;
+    grid-template-columns: 400px 598px;
+    grid-template-rows: minmax(60px, 73px) minmax(165px, 150px);
+    grid-auto-rows: minmax(120px, 130px);
+    column-gap: 100px;
+    border: 0.4px solid #8E8E8E;
+    box-sizing: border-box;
+    border-radius: 17px;
+    margin-top: 40px;
+  }
+  &__photo {
+    grid-row: 1/4;
+    position: relative;
+  }
+  &__descr {
+    margin-top: 16px;
+    &-title {
+      font-weight: 400;
+      font-size: 26px;
+    }
+  }
+  &__time {
+    margin-top: 25px;
+    &-old, &-new {
+      display: flex;
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+      color: #9E9E9E;
+    }
+    &-text
+    {
+      margin-left: 5px;
+    }
+  }
+  .higu {
+    display: flex;
+  }
+  .button__forFlex {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .dbHi {
+    display: none;
+  }
+  &__task {
+    padding-top: 9px;
+    &-item {
+      list-style-type: none;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      &::before{
+        content:'';
+
+        display: inline-block;
+        align-self: flex-start;
+        flex: 0 0 25px;
+
+        width: 25px;
+        height: 25px;
+
+        margin-right: 3px;
+
+        background: url("../icons/check-mark.svg") center/cover no-repeat;
+        background-size: 15px;
+        background-position: bottom;
+     }
+    }
+
+  }
+  &__footer {
+    display: flex;
+    padding-top: 40px;
+    &-main, &-mainMl {
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 20px;
+    }
+    &-mainMl {
+      display: none;
+    }
+    &-second {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 38px;
+    }
+    &-button {
+      // margin-bottom: -7px;
+      // margin-left: -2px;
+      margin: -6px 0px 0px 10px;
+      color: #292929;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+}
+.divButton {
+  position: absolute;
+  width: 154px;
+  height: 42px;
+  left: 0px;
+  top: 46px;
+  background: #099CE8;
+  border: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 0px;
+  font-weight: 600;
+}
+.divBtnSecond {
+  background: #FFD83B;
+  font-weight: 600;
+  color:#292929;
+}
+.clock {
+  display: inline-block;
+  width: 73px;
+  height: 28px;
+  background: #C5DCFF;
+  border-radius: 11px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  outline: none !important;
+  line-height: 26px;
+}
+.clock_active {
+  background-color: #6BA6FF;
+}
+.about__time-new, .mobile, .dbNNN, #clockForJs
+ {
+  display: none;
+}

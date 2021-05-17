@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <section class="about">
+      <div class="container">
+        <div class="about__item">
+          <div class="about__photo">
+            <img class="desc" src="img/first.png" alt="first image"/>
+            <img class="mobile" src="img/sankt-peterburg-piter-st-3495 (2).png" alt="img">
+            <button class="divButton">Новинка</button>
+          </div>
+          <div class="about__descr">
+            <div class="about__descr-title hello">
+              Обзорная экскурсия по рекам и каналам
+              <br />
+              с остановками Hop on Hop Off 2020
+            </div>
+            <div class="about__time-new">
+              <img src="icons/time.svg" alt="time" />
+              <div class="about__time-text">2 часа</div>
+            </div>
+            <div class="about__descr-title dbNNN">
+              АКЦИЯ - Обзорная экскурсия по рекам и каналам
+              с остановками Hop on Hop Off 2020
+            </div>
+          </div>
+          <div class="about__time">
+            <div class="about__time-old">
+              <img src="icons/time.svg" alt="time" />
+              <div class="about__time-text">2 часа</div>
+            </div>
+            <ul class="about__task">
+              <li class="about__task-item">Билет на целый день</li>
+              <li class="about__task-item">Неограниченное число катаний</li>
+              <li class="about__task-item">
+                6 остановок у главных достопримечательностей
+              </li>
+              <li class="about__task-item higu">
+                Ближайший рейс сегодня
+                <div class="button__forFlex">
+                  <button class="clock">12:00</button>
+                  <button class="clock">12:00</button>
+                  <button class="clock">12:00</button>
+                  <button class="clock dbHi">12:00</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="about__footer">
+            <div class="about__footer-wrapper">
+              <div class="about__footer-main">900 ₽</div>
+              <div class="about__footer-second">1200 ₽ на причале</div>
+            </div>
+            <div class="about__footer-button">
+              <button class="button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+        <div class="about__item">
+          <div class="about__photo">
+            <img class="desc" src="img/second.png" alt="first image" />
+            <img class="mobile" src="img/sankt-peterburg-piter-st-3495 (2).png" alt="img">
+            <button class="divButton divBtnSecond">Круглый год</button>
+          </div>
+          <div class="about__descr">
+            <div class="about__descr-title">
+              Обзорная экскурсия по рекам и каналам
+              <br />
+              с остановками Hop on Hop Off 2020
+            </div>
+          </div>
+          <div class="about__time">
+            <div class="about__time-old">
+              <img src="icons/time.svg" alt="time" />
+              <div class="about__time-text">2 часа</div>
+            </div>
+            <ul class="about__task">
+              <li class="about__task-item">Билет на целый день</li>
+              <li class="about__task-item">Неограниченное число катаний</li>
+              <li class="about__task-item">
+                6 остановок у главных достопримечательностей
+              </li>
+              <li class="about__task-item higu">Ближайший рейс сегодня
+                <div class="button__forFlex">
+                  <button class="clock">12:00</button>
+                  <button class="clock">12:00</button>
+                  <button class="clock">12:00</button>
+                  <button class="clock dbHi">12:00</button>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+          <div class="about__footer">
+            <div class="about__footer-wrapper">
+              <div class="about__footer-main forDescPrice">900 ₽</div>
+              <div class="about__footer-mainMl">2900  ₽</div>
+              <div class="about__footer-second forSecond">1200 ₽ на причале</div>
+            </div>
+            <div class="about__footer-button">
+              <button class="button forSecondButton">Подробнее</button>
+            </div>
+          </div>
+        </div>
+        <div class="about__item dbNone">
+          <div class="about__photo">
+            <img src="img/third.png" alt="first image" />
+          </div>
+          <div class="about__descr">
+            <div class="about__descr-title">
+              Обзорная экскурсия по рекам и каналам
+              <br />
+              с остановками Hop on Hop Off 2020
+            </div>
+          </div>
+          <div class="about__time">
+            <div class="about__time-old">
+              <img src="icons/time.svg" alt="time" />
+              <div class="about__time-text">2 часа</div>
+            </div>
+            <ul class="about__task">
+              <li class="about__task-item">Билет на целый день</li>
+              <li class="about__task-item">Неограниченное число катаний</li>
+              <li class="about__task-item">
+                6 остановок у главных достопримечательностей
+              </li>
+              <li class="about__task-item">Ближайший рейс сегодня
+                <button class="clock">12:00</button>
+                <button class="clock">12:00</button>
+                <button class="clock">12:00</button>
+                <button onclick="myFunction()" id="clockForYet" class="clock">ещё...</button>
+              </li>
+            </ul>
+          </div>
+          <div class="about__footer">
+            <div class="about__footer-wrapper">
+              <div class="about__footer-main">900 ₽</div>
+              <div class="about__footer-second">1200 ₽ на причале</div>
+            </div>
+            <div class="about__footer-button">
+              <button class="button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>

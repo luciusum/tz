@@ -1,0 +1,107 @@
+
+@media(max-width: 750px) {
+  .about__photo {
+    grid-row: unset;
+  }
+  .about__item {
+    grid-template: 300px auto auto/1fr;
+  }
+  .dbNone, .desc {
+    display: none;
+  }
+  .button__forFlex {
+    margin-left: 28px !important;
+  }
+  .higu {
+    display: block !important;
+  }
+  .container {
+    width: 470px;
+   
+  }
+  .about__footer-button {
+    margin: -6px 0 0 35px;
+  }
+  .about__footer-mainMl {
+    display: block;
+  }
+  .forDescPrice{
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .about__time-new {
+    display: flex;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .hello, .about__time-old {
+    display: none;
+  }
+  .dbNNN{
+    display: block;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .about__time, .about__footer, .about__descr {
+    margin-left: 20px;
+  }
+  .about__time {
+    margin-top: 10px;
+  }
+  .about__task-item {
+    font-size: 19px;
+  }
+  .about__task-item::before {
+    margin-right: 0.3em;
+  }
+  .mobile {
+    width: 100%;
+  }
+  .dbHi {
+    display: inline-block !important;
+  }
+  .forSecondButton {
+    width: 224px;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    width: 334px;
+  }
+.about__item {
+  grid-template: 205px auto auto/1fr;
+}
+.about__task-item, .about__time-text, .about__descr-title {
+  font-size: 14px;
+}
+.about__footer-main {
+  font-size: 30px;
+  line-height: 30px;
+}
+.about__footer-second {
+  line-height: 18px;
+  font-weight: 600;
+  font-size: 11px;
+}
+.forSecond {
+  line-height: 30px;
+}
+.about__footer-button {
+  margin-left: 17px;
+}
+
+.button {border-radius:13px;
+  width: 169px;height: 47px;
+}
+.clock, .dbHi {
+  font-size: 14px;
+  width: 64px;
+  height: 24px;
+  background: #D9E8FF;
+  border-radius: 11px;
+}
+}
